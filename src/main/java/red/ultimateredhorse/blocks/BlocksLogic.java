@@ -28,6 +28,7 @@ public class BlocksLogic implements Listener {
 
     private static void regBlocks() {
         ArrowGun.reg(m2b);
+        Fan.reg(m2b);
     }
 
     private void tick() {
