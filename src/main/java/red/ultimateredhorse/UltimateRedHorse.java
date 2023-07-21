@@ -4,10 +4,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 import red.ultimateredhorse.blocks.BlocksLogic;
 
 public final class UltimateRedHorse extends JavaPlugin {
+    public static UltimateRedHorse instance;
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        instance = this;
         BlocksLogic.reg(this);
     }
 
