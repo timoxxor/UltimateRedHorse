@@ -1,0 +1,6 @@
+name: UltimateRedHorse
+version: '${project.version}'
+main: red.ultimateredhorse.UltimateRedHorse
+api-version: '1.20'
+authors: [Redstoyn33 & Timoxx]
+description: Ultimate Chicken Horse in Minecraft? what the hell.
