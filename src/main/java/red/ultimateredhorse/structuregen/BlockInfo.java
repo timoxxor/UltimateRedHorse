@@ -1,4 +1,4 @@
-package timox0.bedrockgen;
+package red.ultimateredhorse.structuregen;
 
 import org.bukkit.Bukkit;
 import org.bukkit.block.Block;

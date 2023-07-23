@@ -1,4 +1,4 @@
-package timox0.bedrockgen;
+package red.ultimateredhorse.structuregen;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -45,7 +45,7 @@ public class Box<T> implements Serializable {
         }
     }
 
-    static Object loadFormFile(File file) throws IOException, ClassNotFoundException {
+    public static Object loadFormFile(File file) throws IOException, ClassNotFoundException {
         return new ObjectInputStream(new FileInputStream(file)).readObject();
     }
 

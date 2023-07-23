@@ -4,3 +4,9 @@ main: red.ultimateredhorse.UltimateRedHorse
 api-version: '1.20'
 authors: [Redstoyn33 & Timoxx]
 description: Ultimate Chicken Horse in Minecraft? what the hell.
+load: STARTUP
+commands:
+  saveBebra:
+    usage: 'saveBebra'
+  loadBebra:
+    usage: 'loadBebra'
