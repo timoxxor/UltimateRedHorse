@@ -14,7 +14,7 @@ import java.util.function.Function;
 public class BlocksLogic implements Listener {
 
     private static final HashMap<Material, Function<BlockPlaceEvent, Block>> m2b = new HashMap<>();
-    private static final ArrayList<Block> activeBlocks = new ArrayList<Block>();
+    private static final ArrayList<Block> activeBlocks = new ArrayList<>();
     private static BlocksLogic bl;
     private static final ArrayList<Block> toDel = new ArrayList<>();
 
